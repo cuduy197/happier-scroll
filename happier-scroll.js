@@ -1,8 +1,7 @@
 let happierScroll = (idApp = "app") => {
   let getId = id => document.getElementById(id);
   let getTag = tag => document.getElementsByTagName(tag);
-  var app = getId(idApp);
-  app === null && alert("Pleace input correct app id!");
+  var app = document.body;
   var Button = getTag("Button");
   /* 
   console.log(typeof Button);
