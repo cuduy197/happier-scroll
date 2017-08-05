@@ -1,0 +1,53 @@
+body {
+    background: rgb(40, 42, 54);
+    color: white;
+    margin: 0 !important;
+}
+
+.fullscreen {
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen.center {
+    display: flex;
+    /* for horizontal alignment */
+    justify-content: center;
+    /* for vertical alignment   */
+    align-items: center;
+}
+
+.fullscreen h1 {
+    font-family: monospace !important;
+    /*   margin: 0px !important; */
+    margin-bottom: 10px;
+}
+
+.fullscreen button {
+    font-family: monospace !important;
+}
+
+.l-red {
+    background: lightcoral;
+}
+
+.l-blue {
+    background: lightblue;
+}
+
+.l-yellow {
+    background: lightsalmon;
+}
+
+.l-green {
+    background: lightgreen;
+}
+
+.l-pink {
+    background: lightpink;
+}
+
+.l-purple {
+    background: plum;
+}
